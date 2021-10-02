@@ -5,6 +5,8 @@ import router from './router'
 import elementplus from 'element-plus'
 //引入样式
 import 'element-plus/dist/index.css'
+//引入全局样式
+import'@/assets/css/global.css'
 const app = createApp(App)
 app.use(router)
 //将element-ui 挂载在全局对象上
